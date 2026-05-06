@@ -373,7 +373,7 @@ export default function DuoVictims() {
                 className="block mb-2"
                 style={{ color: '#FF4757', fontSize: '14px', fontWeight: 600 }}
               >
-                When was the day of your freedom?
+                When was the last time you did a Duolingo lesson?
               </Label>
               <Input
                 id="freedomDate"
