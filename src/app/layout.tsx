@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -99,6 +100,7 @@ export default function RootLayout({
         style={{ fontFamily: 'var(--font-poppins), "Segoe UI", sans-serif' }}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
